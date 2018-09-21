@@ -12,21 +12,25 @@
 	/*height: 100vh;*/
 	width: 100%;
 	object-fit:cover;
+	
 }
 
-#cont-parallax {
+.cont-img {
 	padding: 0;
+	margin-top: 200px; 
 }
+
 
 #me-img {
-	height: 250px;
-	width: 250px;
+	height: 350px;
+	width: 350px;
 	border-radius: 50% 50%;
 
 }
 
 #cont-me {
 	text-align: center;
+
 }
 
 
@@ -47,6 +51,15 @@
 .sect-text {
 	text-align: center;
 }
+
+#background-firstcont {
+	/*background-image: url(../images/bg2.png);*/
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+
 
 /*.cont-skills {
 	min-height: 50vh;
