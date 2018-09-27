@@ -1,11 +1,35 @@
 
     /*font-family: 'Bangers', cursive;
     font-family: 'Permanent Marker', cursive;
+
+    font-family: 'Bungee', cursive;
+	font-family: 'Palanquin Dark', sans-serif;
+	font-family: 'Archivo Black', sans-serif;
+	font-family: 'Anton', sans-serif;
+	font-family: 'Fjalla One', sans-serif;
+	font-family: 'Teko', sans-serif;
+	font-family: 'Jockey One', sans-serif;
+	font-family: 'PT Sans', sans-serif;
 */
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+.about-me {
+	font-family: 'PT Sans', sans-serif;
+}
+
+#x {
+	font-family: 'Palanquin Dark', sans-serif;
+}
+.name-bar {
+	 font-family: 'Bungee', cursive;
+	 /*font-family: 'Palanquin Dark', sans-serif;*/
+	 /*font-family: 'Archivo Black', sans-serif;*/
+	 /*font-family: 'Anton', sans-serif;*/
+	 /*font-family: 'Fjalla One', sans-serif;*/
 }
 
 #banner-img {
@@ -18,7 +42,7 @@
 .cont-img {
 	padding: 0;
 	margin-top: 200px;
-	height: 100vh; 
+	height: 100%; 
 }
 
 
@@ -42,7 +66,7 @@
 }
 
 .navbar-brand {
-	font-size: 2em;
+	font-size: 1.25em;
 }
 
 .bg-dark {
@@ -50,23 +74,43 @@
 	transition-timing-function: linear;
 }
 
-#skill-text {
-	background-color: red;
+.text-skill {
+	font-family: 'Palanquin Dark', sans-serif;
 }
 
 .header-text {
-	font-family: 'Permanent Marker', cursive;
-	font-size: 6em;
+	/*font-family: 'Palanquin Dark', sans-serif;*/
+	 /*font-family: 'Archivo Black', sans-serif;*/
+	 /*font-family: 'Anton', sans-serif;*/
+	 /*font-family: 'Fjalla One', sans-serif;*/
+	 /*font-family: 'Bungee', cursive;*/
+	 /*font-family: 'Teko', sans-serif;*/
+	 font-family: 'Jockey One', sans-serif;
+	font-size: 8em;
 
 }
 
 .header-text2 {
-	font-family: 'Permanent Marker', cursive;
-	font-size: 4em;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 3em;
 }
 
 .header-text3 {
-	font-family: 'Permanent Marker', cursive;
+	font-family: 'Palanquin Dark', sans-serif;
+	/*font-family: 'Teko', sans-serif;*/
+	font-size: 1.4em;
+}
+
+.header-text-contact {
+	color: #F2F2F2;
+	font-family: 'Jockey One', sans-serif;
+	font-size: 6.5em;
+
+}
+
+.header-text-contact2 {
+	color: #F2F2F2;
+	font-family: 'Fjalla One', sans-serif;
 	font-size: 3em;
 }
 
@@ -78,8 +122,46 @@
 	object-fit: cover;
 }
 
+ul#contact-icon {
+	list-style: none;
+	padding-top: 50px;
+}
 
+ul#contact-icon>li {
+	display: inline;
+	padding: 20px;
+	color: #F2F2F2;
 
+}
+
+.capstone-cont {
+	padding-left: 120px;
+
+}
+
+.capstone-indi {
+	border: none;
+}
+
+.btn-capstone {
+	border: 2px dashed #581845;
+	color: #FFC300;
+	font-family: 'Palanquin Dark', sans-serif;
+}
+
+.btn-capstone:hover {
+	border: 2px solid #900C3F;
+	background-color: #900C3F;
+	color: #FFC300;
+}
+
+.card-title {
+	font-family: 'Teko', sans-serif;
+}
+
+#footer {
+	font-family: 'Palanquin Dark', sans-serif;
+}
 /*.cont-skills {
 	min-height: 50vh;
 }
@@ -110,7 +192,11 @@
 
 /*tablet style*/
 @media only screen and (min-width: 401px) and (max-width: 960px){
-	
+	.capstone-cont {
+		padding-left: 250px;
+		padding-top: 50px;
+
+	}
 }
 
 /*mobile style*/
@@ -120,9 +206,46 @@
 	}
 
 	#me-img {
-	height: 150px;
-	width: 150px;
+	height: 200px;
+	width: 200px;
 	border-radius: 50% 50%;
+
+	}
+
+	.header-text {
+		font-family: 'Jockey One', sans-serif;
+		font-size: 4.5em;
+
+	}
+
+	.header-text2 {
+		font-family: 'Fjalla One', sans-serif;
+		font-size: 2em;
+	}
+
+	.header-text3 {
+		font-family: 'Palanquin Dark', sans-serif;
+		/*font-family: 'Teko', sans-serif;*/
+		font-size: 1em;
+	}
+	.navbar-brand {
+		font-size: .5em;
+	}
+	ul#contact-icon {
+		list-style: none;
+		padding-top: 50px;
+	}
+
+	ul#contact-icon>li {
+		display: inline;
+		padding: 5px;
+		color: #F2F2F2;
+
+	}
+
+	.capstone-cont {
+		padding-left: 35px;
+		padding-top: 50px;
 
 	}
 }
