@@ -257,6 +257,11 @@
 	font-size: 2.5em;
 }
 
+.visual-imgs{
+	width: 330px;
+	height: 240px;
+}
+
 a:link {
 	text-decoration: none!important;
 }
